@@ -3,13 +3,13 @@ import * as React from "react"
 const pageStyles = {
   color: "#232129",
   padding: 96,
-  marginLeft: 600,
+  marginLeft: 350,
   fontFamily: "-apple-system, Roboto, sans-serif, seheadingStylerif",
 }
 const headingStyles = {
   marginTop: 0,
   marginBottom: 64,
-  maxWidth: 520,
+  maxWidth: 600,
 }
 const headingAccentStyles = {
   color: "#663399",
