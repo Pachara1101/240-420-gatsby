@@ -3,14 +3,19 @@ import * as React from "react"
 const pageStyles = {
   color: "#232129",
   padding: 96,
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
+  marginLeft: 600,
+  fontFamily: "-apple-system, Roboto, sans-serif, seheadingStylerif",
 }
 const headingStyles = {
   marginTop: 0,
   marginBottom: 64,
-  maxWidth: 320,
+  maxWidth: 520,
 }
 const headingAccentStyles = {
+  color: "#663399",
+  fontSize: "3rem"
+}
+const headingAccentStyles1 = {
   color: "#663399",
 }
 const paragraphStyles = {
@@ -21,6 +26,13 @@ const codeStyles = {
   padding: 4,
   backgroundColor: "#FFF4DB",
   fontSize: "1.25rem",
+  borderRadius: 4,
+}
+const textStyle = {
+  color: "#8A6534",
+  padding: 4,
+  backgroundColor: "#FFF4DB",
+  fontSize: "0.5rem",
   borderRadius: 4,
 }
 const listStyles = {
@@ -126,10 +138,10 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <h1 style={headingStyles}>
-        Congratulations
+      <h1 style={headingAccentStyles}>
+      แนะนำสถานที่ใน ม.อ. หาดใหญ่ <span style={textStyle}>By Adilan</span>
         <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! 🎉🎉🎉</span>
+        <span style={headingStyles}>— Hello lovely world, I'm Adilan. nice to meet you all girls 🎉🎉🎉</span>
       </h1>
       <p style={paragraphStyles}>
         Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
